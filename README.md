@@ -85,5 +85,9 @@ You can invoke the deployed Lambda function with a sample event containing a Bas
 
 <!-- end list -->
 
+👏 Credits
+Built by Arav Baboolal & Forage — 2025 🔥
+
+For practice and educational use.
 ```
 ```
