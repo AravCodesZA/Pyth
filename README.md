@@ -30,7 +30,8 @@ Edit
 ### 1. Install Dependencies
 ```bash
 pip install -r requirements.txt -t ./package
-2. Package for Lambda
+
+### 2. Package for Lambda
 bash
 Copy
 Edit
@@ -38,7 +39,8 @@ cd package
 zip -r ../lambda_function.zip .
 cd ..
 zip -g lambda_function.zip lambda_function.py
-3. Deploy to AWS
+
+### 3. Deploy to AWS
 Upload lambda_function.zip to AWS Lambda.
 
 Configure the handler in AWS Lambda console:
@@ -46,7 +48,8 @@ Configure the handler in AWS Lambda console:
 Copy
 Edit
 lambda_function.lambda_handler
-4. Testing
+
+### 4. Testing
 You can invoke the Lambda function with a sample event:
 
 json
@@ -55,7 +58,8 @@ Edit
 {
   "image": "base64-encoded-image-string"
 }
-✅ Use Cases
+
+## ✅ Use Cases
 Mobile biometric authentication.
 
 Secure user identity verification.
